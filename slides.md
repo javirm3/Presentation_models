@@ -359,3 +359,9 @@ Properties
 </div>
 </div>
 </section>
+
+---
+
+## Heat Equation Solution
+
+<iframe src="https://javirm3.shinyapps.io/fourierheat/" width="100%" height="800"></iframe>
