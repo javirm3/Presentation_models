@@ -102,14 +102,14 @@ Note: This theme uses the Roboto font family, which it imports from Google
 .reveal ul ul {
   list-style: none;
 }
-.reveal ul ul li:before {
+/* .reveal ul ul li:before {
   content: "→";
   color: rgb(111.6, 174, 191.4);
   display: inline-block;
   width: 1em;
   margin-left: -1em;
   margin-right: 0.5em;
-}
+} */
 
 .reveal ol {
   font-weight: lighter;

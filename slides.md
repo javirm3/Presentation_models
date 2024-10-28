@@ -183,4 +183,188 @@ Jan Riopedre, Arnau Rojals and F. Javier Rodríguez
    </div>
 </section>
 
+---
 
+## The action of a test function
+
+---
+
+<section data-auto-animate data-transition-speed="fast">
+
+## Action of $f$ on a test function $\phi(x)$
+
+$\langle f, \phi \rangle = \int_{-\infty}^{\infty} f(x) \phi(x) \, dx$
+
+::: {.fragment}
+Properties
+
+- $\langle f, a\phi+b\psi\rangle = a\langle f, \phi\rangle + b \langle f, \psi\rangle$
+  - if &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;$\phi_n(x)\to 0$
+  - then $\langle f,\phi _n\rangle \to 0$
+:::
+
+</section>
+
+---
+
+<section data-auto-animate markdown-block>
+
+## Distribution
+
+</section>
+
+<section data-auto-animate markdown-block>
+
+## Distribution
+
+<div style=" font-size: 0.8em;">
+
+Motivation \
+Definition\
+Linearity and continuity  
+The delta function  
+Properties  
+The derivative of a distribution  
+</div>
+</section>
+
+<section data-auto-animate markdown-block>
+
+## Distribution
+
+<div style="display: flex; gap: 2em;">
+<div style="text-align: left; font-size: 0.5em; width: 25%;">
+
+**Motivation** \
+Definition\
+Linearity and continuity  
+The delta function  
+Properties  
+The derivative of a distribution  
+</div>
+</div>
+</section>
+
+<section data-auto-animate markdown-block>
+
+## Distribution
+
+<div style="display: flex; gap: 2em;">
+<div style="text-align: left; font-size: 0.5em; width: 50%;">
+
+Motivation\
+**Definition** \
+Linearity and continuity  
+The delta function  
+Properties  
+The derivative of a distribution  
+</div>
+<div style="text-align: left; font-size: 0.8em">
+
+A **distribution** $( D )$ is a continuous linear map from the space of test functions to $( \mathbb{R} )$
+
+$\mathcal{D} : \phi \mapsto \langle \mathcal{D}, \phi \rangle \in \mathbb{R}$
+</div>
+</div>
+</section>
+
+<section data-auto-animate markdown-block>
+
+## Distribution
+
+<div style="display: flex; gap: 2em;">
+<div style="text-align: left; font-size: 0.5em; width: 25%;">
+&nbsp;
+
+Motivation\
+Definition \
+**Linearity and continuity**\
+The delta function  
+Properties  
+The derivative of a distribution  
+</div>
+<div style="text-align: left; font-size: 0.8em">
+&nbsp;
+
+- $ \langle \mathcal{D}, a \varphi + b \psi \rangle = a \langle \mathcal{D}, \varphi \rangle + b \langle \mathcal{D}, \psi \rangle $
+
+- if $ \varphi_n(x) \to 0 \quad \text{as} \quad n \to \infty, $  
+  then $ \langle \mathcal{D}, \varphi_n \rangle \to 0 $
+
+</div>
+</div>
+</section>
+
+<section data-auto-animate markdown-block>
+
+## Distribution
+
+<div style="display: flex; gap: 2em;">
+<div style="text-align: left; font-size: 0.5em; width: 25%;">
+&nbsp;
+
+Motivation\
+Definition \
+Linearity and continuity\
+**The delta function** \
+Properties  
+The derivative of a distribution  
+</div>
+</div>
+</section>
+
+<section data-auto-animate markdown-block>
+
+## Distribution
+
+<div style="display: flex; gap: 2em;">
+<div style="text-align: left; font-size: 0.5em; width: 25%;">
+&nbsp;
+
+Motivation\
+Definition \
+Linearity and continuity\
+The delta function  
+**Properties** \
+The derivative of a distribution  
+</div>
+<div style="text-align: left; font-size: 0.8em">
+&nbsp;
+
+- $ \langle \mathcal{D} + \mathcal{E}, \phi \rangle = \langle \mathcal{D}, \phi \rangle + \langle \mathcal{E}, \phi \rangle $
+- $ \langle a \mathcal{D}, \phi \rangle = a \langle \mathcal{D}, \phi \rangle $
+- $ \langle \mathcal{D}(x - a), \phi(x) \rangle = \langle \mathcal{D}(x), \phi(x + a) \rangle $
+- $ \langle \mathcal{D}(ax), \phi(x) \rangle = \frac{1}{|a|} \langle \mathcal{D}, \phi(x/a) \rangle $
+- $ \langle \Phi(x) \mathcal{D}(x), \phi(x) \rangle = \langle \mathcal{D}(x), \Phi(x) \phi(x) \rangle $
+
+</div>
+</div>
+</section>
+
+<section data-auto-animate markdown-block>
+
+## Distribution
+
+<div style="display: flex; gap: 2em;">
+<div style="text-align: left; font-size: 0.5em; width: 25%;">
+&nbsp;
+
+Motivation\
+Definition \
+Linearity and continuity\
+The delta function  
+Properties  
+**The derivative of a distribution**
+</div>
+<div style="text-align: left; font-size: 0.8em">
+&nbsp;
+
+- $ \langle \mathcal{D} + \mathcal{E}, \phi \rangle = \langle \mathcal{D}, \phi \rangle + \langle \mathcal{E}, \phi \rangle $
+- $ \langle a \mathcal{D}, \phi \rangle = a \langle \mathcal{D}, \phi \rangle $
+- $ \langle \mathcal{D}(x - a), \phi(x) \rangle = \langle \mathcal{D}(x), \phi(x + a) \rangle $
+- $ \langle \mathcal{D}(ax), \phi(x) \rangle = \frac{1}{|a|} \langle \mathcal{D}, \phi(x/a) \rangle $
+- $ \langle \Phi(x) \mathcal{D}(x), \phi(x) \rangle = \langle \mathcal{D}(x), \Phi(x) \phi(x) \rangle $
+
+</div>
+</div>
+</section>
