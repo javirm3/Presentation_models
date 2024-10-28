@@ -2,6 +2,7 @@
 theme : "simple"
 highlightTheme: "darkula"
 ---
+
 <link rel="stylesheet" href="css/quarto-revealjs-clean.css">
 
 <section data-background-color="#107895">
@@ -355,16 +356,6 @@ Linearity and continuity\
 The delta function  
 Properties  
 **The derivative of a distribution**
-</div>
-<div style="text-align: left; font-size: 0.8em">
-&nbsp;
-
-- $ \langle \mathcal{D} + \mathcal{E}, \phi \rangle = \langle \mathcal{D}, \phi \rangle + \langle \mathcal{E}, \phi \rangle $
-- $ \langle a \mathcal{D}, \phi \rangle = a \langle \mathcal{D}, \phi \rangle $
-- $ \langle \mathcal{D}(x - a), \phi(x) \rangle = \langle \mathcal{D}(x), \phi(x + a) \rangle $
-- $ \langle \mathcal{D}(ax), \phi(x) \rangle = \frac{1}{|a|} \langle \mathcal{D}, \phi(x/a) \rangle $
-- $ \langle \Phi(x) \mathcal{D}(x), \phi(x) \rangle = \langle \mathcal{D}(x), \Phi(x) \phi(x) \rangle $
-
 </div>
 </div>
 </section>
