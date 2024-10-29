@@ -232,14 +232,13 @@ Jan Riopedre, Arnau Rojals and F. Javier Rodríguez
 
 ## Action of $f$ on a test function $\phi(x)$
 
-$\langle f, \phi \rangle = \int_{-\infty}^{\infty} f(x) \phi(x) \, dx$
+$\langle f, \phi \rangle = \int_{-\infty}^{\infty} f(x) \phi(x) dx$
 
 ::: {.fragment}
 Properties
 
 - $\langle f, a\phi+b\psi\rangle = a\langle f, \phi\rangle + b \langle f, \psi\rangle$
-  - if &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;$\phi_n(x)\to 0$
-  - then $\langle f,\phi _n\rangle \to 0$
+- $$\text{if } \phi_n(x) \to 0 \text{ then } \langle f, \phi_n \rangle \to 0$$
 :::
 
 </section>
@@ -254,26 +253,29 @@ Properties
 
 ---
 
-<section data-auto-animate markdown-block>
+<section data-auto-animate >
 
 ## Distribution
 
+<div >
+
 Motivation \
 Definition\
-Linearity and continuity
-The delta function  
+Linearity and continuity\
+The delta function  \
 Properties  
 The derivative of a distribution  
+</div>
 </section>
 
 ---
 
-<section data-auto-animate markdown-block>
+<section data-auto-animate>
 
 ## Distribution
 
 <div style="display: flex; gap: 5em;">
-<div style="text-align: left; width: 30%;">
+<div  style="text-align: left; width: 30%;">
 
 **Motivation** \
 Definition\
@@ -360,7 +362,7 @@ Linearity and continuity\
 Properties  
 The derivative of a distribution  
 </div>
-<div style="display: flex; align-items: center; justify-content: center;">
+<div data-id="box" style="display: flex; align-items: center; justify-content: center;">
 $
 \langle \delta, \phi \rangle = \phi(0)
 $
@@ -384,10 +386,13 @@ Linearity and continuity\
 Properties  
 The derivative of a distribution  
 </div>
-<div style="display: flex; align-items: center; justify-content: center;">
+<div data-id="box" style="display: flex; align-items: center; justify-content: center;">
 $
 \langle \delta, \phi \rangle = \phi(0)
 $
+</div>
+
+<div style="display: flex; align-items: center; justify-content: center; margin-left:-1.5em">
 $= \int_{-\infty}^{\infty} \delta(x) \phi(x) \, dx
 $
 </div>
@@ -495,7 +500,7 @@ Properties
 
 - **Example:** $\mathcal{H}'(x) = \delta(x)$
 
-- $\langle \mathcal{D}^{(m)}(x), \, \phi(x) \rangle = (-1)^m \langle \mathcal{D}, \, \phi^{(m)}(x) \rangle$
+- $\langle \mathcal{D}^{(m)}(x),  \phi(x) \rangle = (-1)^m \langle \mathcal{D},  \phi^{(m)}(x) \rangle$
 
 </div>
 </div>
@@ -546,6 +551,330 @@ Example: $\langle \delta(\mathbf{x}), \phi(\mathbf{x}) \rangle = \phi(0)$
 </div>
 </div>
 
+</section>
+
+---
+
+<section data-auto-animate markdown-block>
+
+## More variables
+
+<div style="text-align: left;">
+
+- **Multivariable test function**
+
+$$\mathcal{C}^{\infty} \text{ and with compact support in all the arguments}$$  
+
+- **Multivariable distribution**
+
+<div class="fragment" style="padding-left: 3.5em; margin-top:1em;">
+Continuous linear map from the space of multivariable test functions to real numbers
+</div>
+<div class="fragment" style="padding-left: 3.5em; margin-top:1em;">
+Example: $\langle \delta(\mathbf{x}), \phi(\mathbf{x}) \rangle = \phi(0)$
+</div>
+</div>
+
+</section>
+
+---
+
+<section data-auto-animate markdown-block>
+
+## More variables
+
+<div style="text-align: left; margin-top:2em;">
+
+- **Derivatives**
+
+<div class="fragment">
+$$
+\left\langle \frac{\partial \mathcal{D}}{\partial x_i}, \, \phi \right\rangle = - \left\langle \mathcal{D}, \, \frac{\partial \phi}{\partial x_i} \right\rangle
+$$
+</div>
+<div class="fragment">
+$$
+\nabla \wedge \nabla \mathcal{D} \equiv 0
+$$
+</div>
+
+</div>
+
+</section>
+
+---
+
+## Fourier transforms
+
+<div style="text-align: left; margin-top:1em;">
+
+- **Concept and deduction**
+
+<div style=" display: flex; align-items: center; justify-content: center; gap:2em;">
+
+![Fourier transform illustration](images/fourier_jan.png)
+
+$$\hat{\phi}(k) = \int_{-\infty}^{\infty} \phi(x) e^{ikx} \, dx$$
+</div>
+</div>
+
+---
+
+<section data-auto-animate markdown-block>
+
+## Fourier transforms
+
+<div style="text-align: left;">
+
+- **Tempered distributions**
+
+<div data-id="box" style="padding-left: 3.5em; margin-top:1em;">
+Test functions before: with compact support and $\mathcal{C}^\infty$
+</div>
+
+</section>
+
+---
+
+<section data-auto-animate markdown-block>
+
+## Fourier transforms
+
+<div style="text-align: left;">
+
+- **Tempered distributions**
+
+<div data-id="box" style="padding-left: 3.5em; margin-top:1em;">
+Test functions before: <span style="color: red;"><s>with compact support</s></span> and $\mathcal{C}^\infty$
+
+</div>
+<div style="padding-left: 17em;">&darr;</div>
+<div data-id="box" style="padding-left: 8.5em; margin-top:1em;">
+all the derivatives decay faster than any power of x
+</div>
+</div>
+</section>
+
+---
+
+<section data-auto-animate markdown-block>
+
+## Fourier transforms
+
+<div style="text-align: left;">
+
+- **Tempered distributions**
+
+<div class="fragment">
+
+$$\phi(x) \text{ test function} \quad \Rightarrow \quad \hat{\phi}(k) \text{ test function}$$
+
+</div>
+
+<div style="display: flex; justify-content: center; gap:4em; align-items: flex-start;">
+
+<div class="fragment">
+
+$\hat{\phi}(k) = \int_{-\infty}^{\infty} \phi(x) e^{ikx} dx$
+
+$\tilde{\psi}(x) = \frac{1}{2\pi} \int_{-\infty}^{\infty} \psi(k) e^{-ikx} dk$
+
+</div>
+
+<div class="fragment">
+
+$\frac{d\hat{\phi}}{dx} = -ik\hat{\phi}$
+
+$\hat{x\phi} = -i \frac{d\hat{\phi}}{dk}$
+
+</div>
+
+</div>
+</div>
+</section>
+
+---
+
+<section data-auto-animate markdown-block>
+
+## Fourier transforms
+
+<div style="text-align: left;">
+
+- **Tempered distributions**
+
+<div style="display: flex; justify-content: center; gap:3em; align-items: flex-start; font-size:0.8em;">
+
+<div class="fragment" style="padding-left: 3em;">
+
+The action of the Fourier transform of an ordinary function on a test function:
+
+</div>
+
+<div class="fragment">
+
+$$\langle \hat{f}, \phi \rangle = \int_{-\infty}^{\infty} \left( \int_{-\infty}^{\infty} f(x)  e^{ikx}  dx \right) \phi(k) dk$$
+
+$$
+\hspace{27mm}= \int_{-\infty}^{\infty} \left( \int_{-\infty}^{\infty} \phi(k) e^{ikx} dk \right) f(x) dx
+$$
+
+$$
+\hspace{-55mm}=  \langle f, \hat{\phi} \rangle.
+$$
+</div>
+</div>
+<div class="fragment" style="display: flex; justify-content: center; gap:4em; align-items: flex-start; margin-top:-1em;">
+<div >
+
+So we define: $\hspace{5mm} \langle \hat{\mathcal{D}}, \phi \rangle = \langle \mathcal{D}, \hat{\phi} \rangle$
+<div style="margin-top:-1em" class="fragment">
+
+$\hspace{68mm}\langle \check{\mathcal{D}}, \phi \rangle = \langle \mathcal{D}, \check{\phi} \rangle$
+
+</div>
+</div>
+</div>
+</div>
+</section>
+
+---
+
+<section data-auto-animate markdown-block>
+
+## Fourier transforms
+
+<div style="text-align: left;margin-top:1.5em;">
+
+- **Tempered distributions**
+
+<div style="display: flex; justify-content: center; gap:3em; align-items: flex-start; font-size:0.8em;margin-top:1em;">
+
+<div class="fragment" style="padding-left: 3em;">
+
+The Fourier transform of the derivative $\mathcal{D}' = \frac{d\mathcal{D}}{dx}$ is $-ik\hat{\mathcal{D}}$
+
+</div>
+
+<div class="fragment">
+
+$
+\langle \check{\mathcal{D}}, \phi \rangle = \langle \mathcal{D}', \check{\phi} \rangle
+$
+$
+= -\langle \mathcal{D}, \frac{d \check{\phi}}{dk} \rangle
+$
+$
+\hspace{28mm}= -\langle \mathcal{D}, ix \check{\phi} \rangle \\
+= \langle -ik \check{\mathcal{D}}, \phi \rangle
+$
+
+</div>
+</div>
+<div  style="display: flex; justify-content: center; gap:4em; align-items: flex-start; margin-top:1em;">
+<div >
+
+So we define: $\hspace{5mm} \langle \hat{\mathcal{D}}, \phi \rangle = \langle \mathcal{D}, \hat{\phi} \rangle$
+<div style="margin-top:-1em">
+
+$\hspace{68mm}\langle \check{\mathcal{D}}, \phi \rangle = \langle \mathcal{D}, \check{\phi} \rangle$
+
+</div>
+</div>
+</div>
+</div>
+</section>
+
+---
+
+<section data-auto-animate markdown-block>
+
+## Fourier transforms
+
+<div style="text-align: left;margin-top:1.5em;">
+
+- **Two Examples**
+
+</section>
+
+---
+
+<section data-auto-animate markdown-block>
+
+## Fourier transforms
+
+<div style="text-align: left;margin-top:1.5em;">
+
+- **FT of delta**
+
+<div style="display: flex; justify-content: center; gap:3em; align-items: flex-start; font-size:0.8em;margin-top:1em;">
+
+<div class="fragment" style="padding-left: 3em;">
+Informally,
+
+$$
+\int_{-\infty}^{\infty} \delta(x) e^{ikx} dx = e^{ik \cdot 0} = 1
+$$
+
+</div>
+
+<div class="fragment">
+Formally,
+
+$$
+\langle \delta, \phi \rangle = \langle \delta, \hat{\phi} \rangle
+= \hat{\phi}(0)$$
+$$
+= \int_{-\infty}^{\infty} \phi(x)  dx = \langle 1, \phi \rangle
+$$
+
+</div>
+</div>
+<div class="fragment" style=" margin-left:3em ;display: flex; justify-content: center; gap:4em; align-items: flex-start; ">
+$$
+\hat{\delta}(k) = 1
+$$
+<div >
+
+</div>
+</div>
+</div>
+</section>
+
+---
+
+<section data-auto-animate markdown-block>
+
+## Fourier transforms
+
+<div style="text-align: left;margin-top:1.5em;">
+
+- **FT of 1**
+
+<div style="display: flex; justify-content: center; gap:3em; align-items: flex-start; font-size:0.8em;margin-top:1em;">
+
+<div class="fragment" style="padding-left: 3em;">
+For the inverse, we have:
+
+$$
+\check{\delta} = \frac{1}{2\pi} \int_{-\infty}^{\infty} \delta(k) e^{-ikx} \, dk \\
+= \frac{1}{2\pi},
+$$
+
+</div>
+
+<div class="fragment">
+Formally,
+
+$$
+\overset{\hat({\check{\delta}})=\delta}{\Rightarrow} \quad \hat{1}(k) = 2\pi \delta(k)
+$$
+
+</div>
+</div>
+</div>
+</div>
+</div>
 </section>
 
 ---
