@@ -22,6 +22,8 @@ Jan Riopedre, Arnau Rojals and F. Javier Rodríguez
    <h3> Fourier Transform</h3>
 </section>
 
+---
+
 <section data-auto-animate data-transition-speed="fast">
    <h3> Fourier Transform</h3>
    <div style="display: flex; flex-wrap: wrap; gap: 5px; justify-content: center; align-items: center;">
@@ -29,6 +31,9 @@ Jan Riopedre, Arnau Rojals and F. Javier Rodríguez
    </div>
    <div>720 x 1280 = 921600 coefficients</div>
 </section>
+
+---
+
 <section data-auto-animate data-transition-speed="fast">
    <h3> Fourier Transform</h3>
    <div style="display: flex; flex-wrap: wrap; gap: 5px; justify-content: center; align-items: center;">
@@ -36,6 +41,8 @@ Jan Riopedre, Arnau Rojals and F. Javier Rodríguez
       <img src="images/image.png" style="width: 35%;" />
    </div>
 </section>
+
+---
 
 <section data-auto-animate data-transition-speed="fast">
    <h2>n = 2</h2>
@@ -47,6 +54,8 @@ Jan Riopedre, Arnau Rojals and F. Javier Rodríguez
    </div>
 </section>
 
+---
+
 <section data-auto-animate data-transition-speed="fast">
    <h2>n = 4</h2>
    <div style="display: flex; flex-wrap: wrap; gap: 5px; justify-content: center; align-items: center;">
@@ -56,6 +65,8 @@ Jan Riopedre, Arnau Rojals and F. Javier Rodríguez
       <img src="images/recovered_image4.png" style="width: 35%;" />
    </div>
 </section>
+
+---
 
 <section data-auto-animate data-transition-speed="fast">
    <h2>n = 8</h2>
@@ -67,6 +78,8 @@ Jan Riopedre, Arnau Rojals and F. Javier Rodríguez
    </div>
 </section>
 
+---
+
 <section data-auto-animate data-transition-speed="fast">
    <h3>n = 16</h3>
    <div style="display: flex; flex-wrap: wrap; gap: 5px; justify-content: center; align-items: center;">
@@ -76,6 +89,8 @@ Jan Riopedre, Arnau Rojals and F. Javier Rodríguez
       <img src="images/recovered_image16.png" style="width: 35%;" />
    </div>
 </section>
+
+---
 
 <section data-auto-animate data-transition-speed="fast">
    <h2>n = 32</h2>
@@ -87,6 +102,8 @@ Jan Riopedre, Arnau Rojals and F. Javier Rodríguez
    </div>
 </section>
 
+---
+
 <section data-auto-animate data-transition-speed="fast">
    <h2>n = 64</h2>
    <div style="display: flex; flex-wrap: wrap; gap: 5px; justify-content: center; align-items: center;">
@@ -96,6 +113,8 @@ Jan Riopedre, Arnau Rojals and F. Javier Rodríguez
       <img src="images/recovered_image64.png" style="width: 35%;" />
    </div>
 </section>
+
+---
 
 <section data-auto-animate data-transition-speed="fast">
    <h2>n = 128</h2>
@@ -107,6 +126,8 @@ Jan Riopedre, Arnau Rojals and F. Javier Rodríguez
    </div>
 </section>
 
+---
+
 <section data-auto-animate data-transition-speed="fast">
    <h2>n = 256</h2>
    <div style="display: flex; flex-wrap: wrap; gap: 5px; justify-content: center; align-items: center;">
@@ -116,6 +137,8 @@ Jan Riopedre, Arnau Rojals and F. Javier Rodríguez
       <img src="images/recovered_image256.png" style="width: 35%;" />
    </div>
 </section>
+
+---
 
 <section data-auto-animate data-transition-speed="fast">
    <h2>n = 512</h2>
@@ -127,6 +150,8 @@ Jan Riopedre, Arnau Rojals and F. Javier Rodríguez
    </div>
 </section>
 
+---
+
 <section data-auto-animate data-transition-speed="fast">
    <h2>n = 1024</h2>
    <div style="display: flex; flex-wrap: wrap; gap: 5px; justify-content: center; align-items: center;">
@@ -136,6 +161,8 @@ Jan Riopedre, Arnau Rojals and F. Javier Rodríguez
       <img src="images/recovered_image1024.png" style="width: 35%;" />
    </div>
 </section>
+
+---
 
 <section data-auto-animate data-transition-speed="fast">
    <h2>n = 2048</h2>
@@ -147,6 +174,8 @@ Jan Riopedre, Arnau Rojals and F. Javier Rodríguez
    </div>
 </section>
 
+---
+
 <section data-auto-animate data-transition-speed="fast">
    <h2>n = 4096</h2>
    <div style="display: flex; flex-wrap: wrap; gap: 5px; justify-content: center; align-items: center;">
@@ -156,6 +185,8 @@ Jan Riopedre, Arnau Rojals and F. Javier Rodríguez
       <img src="images/recovered_image4096.png" style="width: 35%;" />
    </div>
 </section>
+
+---
 
 <section data-auto-animate data-transition-speed="fast">
    <h2>n = 8192</h2>
@@ -167,6 +198,8 @@ Jan Riopedre, Arnau Rojals and F. Javier Rodríguez
    </div>
 </section>
 
+---
+
 <section data-auto-animate data-transition-speed="fast">
    <h2>n = 16384</h2>
    <div style="display: flex; flex-wrap: wrap; gap: 5px; justify-content: center; align-items: center;">
@@ -176,6 +209,8 @@ Jan Riopedre, Arnau Rojals and F. Javier Rodríguez
       <img src="images/recovered_image16384.png" style="width: 35%;" />
    </div>
 </section>
+
+---
 
 <section data-auto-animate data-transition-speed="fast">
    <h2>n = 32768</h2>
@@ -217,6 +252,8 @@ Properties
 
 </section>
 
+---
+
 <section data-auto-animate markdown-block>
 
 ## Distribution
@@ -228,6 +265,8 @@ The delta function
 Properties  
 The derivative of a distribution  
 </section>
+
+---
 
 <section data-auto-animate markdown-block>
 
@@ -252,6 +291,8 @@ More broader and general
 </div>
 </section>
 
+---
+
 <section data-auto-animate markdown-block>
 
 ## Distribution
@@ -267,6 +308,7 @@ Properties
 The derivative of a distribution  
 </div>
 <div style="text-align: left; ">
+&nbsp;
 
 A **distribution** $( D )$ is a continuous linear map from the space of test functions to $( \mathbb{R} )$
 
@@ -274,6 +316,8 @@ $\mathcal{D} : \phi \mapsto \langle \mathcal{D}, \phi \rangle \in \mathbb{R}$
 </div>
 </div>
 </section>
+
+---
 
 <section data-auto-animate markdown-block>
 
@@ -289,7 +333,7 @@ The delta function
 Properties  
 The derivative of a distribution  
 </div>
-<div style="text-align: left; ">
+<div style="display: flex; align-items: center; justify-content: center;">
 
 - $ \langle \mathcal{D}, a \varphi + b \psi \rangle = a \langle \mathcal{D}, \varphi \rangle + b \langle \mathcal{D}, \psi \rangle $
 
@@ -299,6 +343,8 @@ The derivative of a distribution
 </div>
 </div>
 </section>
+
+---
 
 <section data-auto-animate markdown-block>
 
@@ -321,6 +367,8 @@ $
 </div>
 </div>
 </section>
+
+---
 
 <section data-auto-animate markdown-block>
 
@@ -345,6 +393,8 @@ $
 </div>
 </div>
 </section>
+
+---
 
 <section data-auto-animate markdown-block>
 
@@ -373,6 +423,8 @@ The derivative of a distribution
 </div>
 </section>
 
+---
+
 <section data-auto-animate markdown-block>
 
 ## Distribution
@@ -394,6 +446,8 @@ Properties
 </div>
 </div>
 </section>
+
+---
 
 <section data-auto-animate markdown-block>
 
@@ -418,6 +472,9 @@ Properties
 </div>
 </div>
 </section>
+
+---
+
 <section data-auto-animate markdown-block>
 
 ## Distribution
@@ -473,8 +530,6 @@ Properties
 
 ## More variables
 
-&nbsp;
-
 <div style="text-align: left;">
 
 - **Multivariable test function**
@@ -485,6 +540,9 @@ $$\mathcal{C}^{\infty} \text{ and with compact support in all the arguments}$$
 
 <div class="fragment" style="padding-left: 3.5em; margin-top:1em;">
 Continuous linear map from the space of multivariable test functions to real numbers
+</div>
+<div class="fragment" style="padding-left: 3.5em; margin-top:1em;">
+Example: $\langle \delta(\mathbf{x}), \phi(\mathbf{x}) \rangle = \phi(0)$
 </div>
 </div>
 

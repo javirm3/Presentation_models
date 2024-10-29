@@ -1,593 +1,793 @@
 <!doctype html>
 <html lang="en">
 
-<head>
-  <meta charset="utf-8">
+    <head>
+        <meta charset="utf-8">
 
-  <title>Reveal JS presentation</title>
+        <title>Reveal JS presentation</title>
 
-  <meta name="description" content="A framework for easily creating beautiful presentations using HTML">
-  <meta name="author" content="Hakim El Hattab">
+        <meta name="description"
+            content="A framework for easily creating beautiful presentations using HTML">
+        <meta name="author" content="Hakim El Hattab">
 
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style"
+            content="black-translucent">
 
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="stylesheet" href="libs/reveal.js/4.3.1/reset.css">
-  <link rel="stylesheet" href="libs/reveal.js/4.3.1/reveal.css">
+        <link rel="stylesheet" href="libs/reveal.js/4.3.1/reset.css">
+        <link rel="stylesheet" href="libs/reveal.js/4.3.1/reveal.css">
 
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <link rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
-  <!-- highlight Theme -->
-  
-  <link rel="stylesheet" href="libs/highlight.js/11.3.1/styles/darkula.min.css">
-  
-	
-		
-	<link rel="stylesheet" href="libs/reveal.js/4.3.1/plugin/chalkboard/style.css">
-	
-	
-	
-  <link rel="stylesheet" href="libs/reveal.js/4.3.1/plugin/customcontrols/style.css">
-  
-	
+        <!-- highlight Theme -->
 
+        <link rel="stylesheet"
+            href="libs/highlight.js/11.3.1/styles/darkula.min.css">
 
+        <link rel="stylesheet"
+            href="libs/reveal.js/4.3.1/plugin/chalkboard/style.css">
 
-  <!-- Revealjs Theme -->
-  
-  <link rel="stylesheet" href="libs/reveal.js/4.3.1/theme/simple.css" id="theme">
-  
-  
+        <link rel="stylesheet"
+            href="libs/reveal.js/4.3.1/plugin/customcontrols/style.css">
 
-  <link rel="stylesheet" href="libs/styles/tasklist.css">
-	<link rel="stylesheet" href="libs/styles/iota.css">
-	<link rel="stylesheet" href="libs/styles/layout.css">
+        <!-- Revealjs Theme -->
 
+        <link rel="stylesheet" href="libs/reveal.js/4.3.1/theme/simple.css"
+            id="theme">
 
-  <!-- Revealjs Theme -->
-  
+        <link rel="stylesheet" href="libs/styles/tasklist.css">
+        <link rel="stylesheet" href="libs/styles/iota.css">
+        <link rel="stylesheet" href="libs/styles/layout.css">
 
-   <!-- css list -->
-	
+        <!-- Revealjs Theme -->
 
-   
+        <!-- css list -->
 
-</head>
+    </head>
 
-<body>
+    <body>
 
-   
+        <div class="reveal">
 
-  <div class="reveal">
+            <!-- Any section element inside of this container is displayed as a slide -->
+            <div class="slides">
 
-    <!-- Any section element inside of this container is displayed as a slide -->
-    <div class="slides">
+                <section>
 
-      
+                    <link rel="stylesheet" href="css/quarto-revealjs-clean.css">
+                    <section data-background-color="#107895">
+                        <h2>Theory of distributions</h2>
+                        <p>Jan Riopedre, Arnau Rojals and F. Javier
+                            Rodríguez</p>
+                    </section>
+                </section>
 
+                <section>
 
-    
-        <section >
-            
-            <link rel="stylesheet" href="css/quarto-revealjs-clean.css">
-<section data-background-color="#107895">
-<h2>Theory of distributions</h2>
-<p>Jan Riopedre, Arnau Rojals and F. Javier Rodríguez</p>
-</section>
-            </section>
-    
+                    <section data-auto-animate data-transition-speed="fast"
+                        data-background-color="#107895">
+                        <h3> Example</h3>
+                        <h3> Fourier Transform</h3>
+                    </section>
+                </section>
 
+                <section>
 
+                    <section data-auto-animate data-transition-speed="fast">
+                        <h3> Fourier Transform</h3>
+                        <div
+                            style="display: flex; flex-wrap: wrap; gap: 5px; justify-content: center; align-items: center;">
+                            <img src="images/image.png" style="width: 60%;" />
+                        </div>
+                        <div>720 x 1280 = 921600 coefficients</div>
+                    </section>
+                </section>
 
-    
-        <section >
-            
-            <section data-auto-animate data-transition-speed="fast" data-background-color="#107895">
-  <h3> Example</h3>
-   <h3> Fourier Transform</h3>
-</section>
-<section data-auto-animate data-transition-speed="fast">
-   <h3> Fourier Transform</h3>
-   <div style="display: flex; flex-wrap: wrap; gap: 5px; justify-content: center; align-items: center;">
-   <img src="images/image.png" style="width: 60%;" />
-   </div>
-   <div>720 x 1280 = 921600 coefficients</div>
-</section>
-<section data-auto-animate data-transition-speed="fast">
-   <h3> Fourier Transform</h3>
-   <div style="display: flex; flex-wrap: wrap; gap: 5px; justify-content: center; align-items: center;">
-      <img src="images/color_channels_plot.png" style="width: 55%; margin-right: 25px;" />
-      <img src="images/image.png" style="width: 35%;" />
-   </div>
-</section>
-<section data-auto-animate data-transition-speed="fast">
-   <h2>n = 2</h2>
-   <div style="display: flex; flex-wrap: wrap; gap: 5px; justify-content: center; align-items: center;">
-      <img src="images/color_channels_plot.png" style="width: 45%; margin-right: 25px;" />
-      <img src="images/image.png" style="width: 35%;" />
-      <img src="images/color_channels_plot2.png" style="width: 45%; margin-right: 25px;" />
-      <img src="images/recovered_image2.png" style="width: 35%;" />
-   </div>
-</section>
-<section data-auto-animate data-transition-speed="fast">
-   <h2>n = 4</h2>
-   <div style="display: flex; flex-wrap: wrap; gap: 5px; justify-content: center; align-items: center;">
-      <img src="images/color_channels_plot.png" style="width: 45%; margin-right: 25px;" />
-      <img src="images/image.png" style="width: 35%;" />
-      <img src="images/color_channels_plot4.png" style="width: 45%; margin-right: 25px;" />
-      <img src="images/recovered_image4.png" style="width: 35%;" />
-   </div>
-</section>
-<section data-auto-animate data-transition-speed="fast">
-   <h2>n = 8</h2>
-   <div style="display: flex; flex-wrap: wrap; gap: 5px; justify-content: center; align-items: center;">
-      <img src="images/color_channels_plot.png" style="width: 45%; margin-right: 25px;" />
-      <img src="images/image.png" style="width: 35%;" />
-      <img src="images/color_channels_plot8.png" style="width: 45%; margin-right: 25px;" />
-      <img src="images/recovered_image8.png" style="width: 35%;" />
-   </div>
-</section>
-<section data-auto-animate data-transition-speed="fast">
-   <h3>n = 16</h3>
-   <div style="display: flex; flex-wrap: wrap; gap: 5px; justify-content: center; align-items: center;">
-      <img src="images/color_channels_plot.png" style="width: 45%; margin-right: 25px;" />
-      <img src="images/image.png" style="width: 35%;" />
-      <img src="images/color_channels_plot16.png" style="width: 45%; margin-right: 25px;" />
-      <img src="images/recovered_image16.png" style="width: 35%;" />
-   </div>
-</section>
-<section data-auto-animate data-transition-speed="fast">
-   <h2>n = 32</h2>
-   <div style="display: flex; flex-wrap: wrap; gap: 5px; justify-content: center; align-items: center;">
-      <img src="images/color_channels_plot.png" style="width: 45%; margin-right: 25px;" />
-      <img src="images/image.png" style="width: 35%;" />
-      <img src="images/color_channels_plot32.png" style="width: 45%; margin-right: 25px;" />
-      <img src="images/recovered_image32.png" style="width: 35%;" />
-   </div>
-</section>
-<section data-auto-animate data-transition-speed="fast">
-   <h2>n = 64</h2>
-   <div style="display: flex; flex-wrap: wrap; gap: 5px; justify-content: center; align-items: center;">
-      <img src="images/color_channels_plot.png" style="width: 45%; margin-right: 25px;" />
-      <img src="images/image.png" style="width: 35%;" />
-      <img src="images/color_channels_plot64.png" style="width: 45%; margin-right: 25px;" />
-      <img src="images/recovered_image64.png" style="width: 35%;" />
-   </div>
-</section>
-<section data-auto-animate data-transition-speed="fast">
-   <h2>n = 128</h2>
-   <div style="display: flex; flex-wrap: wrap; gap: 5px; justify-content: center; align-items: center;">
-      <img src="images/color_channels_plot.png" style="width: 45%; margin-right: 25px;" />
-      <img src="images/image.png" style="width: 35%;" />
-      <img src="images/color_channels_plot128.png" style="width: 45%; margin-right: 25px;" />
-      <img src="images/recovered_image128.png" style="width: 35%;" />
-   </div>
-</section>
-<section data-auto-animate data-transition-speed="fast">
-   <h2>n = 256</h2>
-   <div style="display: flex; flex-wrap: wrap; gap: 5px; justify-content: center; align-items: center;">
-      <img src="images/color_channels_plot.png" style="width: 45%; margin-right: 25px;" />
-      <img src="images/image.png" style="width: 35%;" />
-      <img src="images/color_channels_plot256.png" style="width: 45%; margin-right: 25px;" />
-      <img src="images/recovered_image256.png" style="width: 35%;" />
-   </div>
-</section>
-<section data-auto-animate data-transition-speed="fast">
-   <h2>n = 512</h2>
-   <div style="display: flex; flex-wrap: wrap; gap: 5px; justify-content: center; align-items: center;">
-      <img src="images/color_channels_plot.png" style="width: 45%; margin-right: 25px;" />
-      <img src="images/image.png" style="width: 35%;" />
-      <img src="images/color_channels_plot512.png" style="width: 45%; margin-right: 25px;" />
-      <img src="images/recovered_image512.png" style="width: 35%;" />
-   </div>
-</section>
-<section data-auto-animate data-transition-speed="fast">
-   <h2>n = 1024</h2>
-   <div style="display: flex; flex-wrap: wrap; gap: 5px; justify-content: center; align-items: center;">
-      <img src="images/color_channels_plot.png" style="width: 45%; margin-right: 25px;" />
-      <img src="images/image.png" style="width: 35%;" />
-      <img src="images/color_channels_plot1024.png" style="width: 45%; margin-right: 25px;" />
-      <img src="images/recovered_image1024.png" style="width: 35%;" />
-   </div>
-</section>
-<section data-auto-animate data-transition-speed="fast">
-   <h2>n = 2048</h2>
-   <div style="display: flex; flex-wrap: wrap; gap: 5px; justify-content: center; align-items: center;">
-      <img src="images/color_channels_plot.png" style="width: 45%; margin-right: 25px;" />
-      <img src="images/image.png" style="width: 35%;" />
-      <img src="images/color_channels_plot2048.png" style="width: 45%; margin-right: 25px;" />
-      <img src="images/recovered_image2048.png" style="width: 35%;" />
-   </div>
-</section>
-<section data-auto-animate data-transition-speed="fast">
-   <h2>n = 4096</h2>
-   <div style="display: flex; flex-wrap: wrap; gap: 5px; justify-content: center; align-items: center;">
-      <img src="images/color_channels_plot.png" style="width: 45%; margin-right: 25px;" />
-      <img src="images/image.png" style="width: 35%;" />
-      <img src="images/color_channels_plot4096.png" style="width: 45%; margin-right: 25px;" />
-      <img src="images/recovered_image4096.png" style="width: 35%;" />
-   </div>
-</section>
-<section data-auto-animate data-transition-speed="fast">
-   <h2>n = 8192</h2>
-   <div style="display: flex; flex-wrap: wrap; gap: 5px; justify-content: center; align-items: center;">
-      <img src="images/color_channels_plot.png" style="width: 45%; margin-right: 25px;" />
-      <img src="images/image.png" style="width: 35%;" />
-      <img src="images/color_channels_plot8192.png" style="width: 45%; margin-right: 25px;" />
-      <img src="images/recovered_image8192.png" style="width: 35%;" />
-   </div>
-</section>
-<section data-auto-animate data-transition-speed="fast">
-   <h2>n = 16384</h2>
-   <div style="display: flex; flex-wrap: wrap; gap: 5px; justify-content: center; align-items: center;">
-      <img src="images/color_channels_plot.png" style="width: 45%; margin-right: 25px;" />
-      <img src="images/image.png" style="width: 35%;" />
-      <img src="images/color_channels_plot16384.png" style="width: 45%; margin-right: 25px;" />
-      <img src="images/recovered_image16384.png" style="width: 35%;" />
-   </div>
-</section>
-<section data-auto-animate data-transition-speed="fast">
-   <h2>n = 32768</h2>
-   <div style="display: flex; flex-wrap: wrap; gap: 5px; justify-content: center; align-items: center;">
-      <img src="images/color_channels_plot.png" style="width: 45%; margin-right: 25px;" />
-      <img src="images/image.png" style="width: 35%;" />
-      <img src="images/color_channels_plot32768.png" style="width: 45%; margin-right: 25px;" />
-      <img src="images/recovered_image32768.png" style="width: 35%;" />
-   </div>
-</section>
-            </section>
-    
+                <section>
 
+                    <section data-auto-animate data-transition-speed="fast">
+                        <h3> Fourier Transform</h3>
+                        <div
+                            style="display: flex; flex-wrap: wrap; gap: 5px; justify-content: center; align-items: center;">
+                            <img src="images/color_channels_plot.png"
+                                style="width: 55%; margin-right: 25px;" />
+                            <img src="images/image.png" style="width: 35%;" />
+                        </div>
+                    </section>
+                </section>
 
+                <section>
 
-    
-        <section >
-            
-            <h2>The action of a test function</h2>
+                    <section data-auto-animate data-transition-speed="fast">
+                        <h2>n = 2</h2>
+                        <div
+                            style="display: flex; flex-wrap: wrap; gap: 5px; justify-content: center; align-items: center;">
+                            <img src="images/color_channels_plot.png"
+                                style="width: 45%; margin-right: 25px;" />
+                            <img src="images/image.png" style="width: 35%;" />
+                            <img src="images/color_channels_plot2.png"
+                                style="width: 45%; margin-right: 25px;" />
+                            <img src="images/recovered_image2.png"
+                                style="width: 35%;" />
+                        </div>
+                    </section>
+                </section>
 
-            </section>
-    
+                <section>
 
+                    <section data-auto-animate data-transition-speed="fast">
+                        <h2>n = 4</h2>
+                        <div
+                            style="display: flex; flex-wrap: wrap; gap: 5px; justify-content: center; align-items: center;">
+                            <img src="images/color_channels_plot.png"
+                                style="width: 45%; margin-right: 25px;" />
+                            <img src="images/image.png" style="width: 35%;" />
+                            <img src="images/color_channels_plot4.png"
+                                style="width: 45%; margin-right: 25px;" />
+                            <img src="images/recovered_image4.png"
+                                style="width: 35%;" />
+                        </div>
+                    </section>
+                </section>
 
+                <section>
 
-    
-        <section >
-            
-            <section data-auto-animate data-transition-speed="fast">
-<h2>Action of $f$ on a test function $\phi(x)$</h2>
-<p>$\langle f, \phi \rangle = \int_{-\infty}^{\infty} f(x) \phi(x) , dx$</p>
-<div class="fragment ">
-<p>Properties</p>
-<ul>
-<li>$\langle f, a\phi+b\psi\rangle = a\langle f, \phi\rangle + b \langle f, \psi\rangle$
-<ul>
-<li>if           $\phi_n(x)\to 0$</li>
-<li>then $\langle f,\phi _n\rangle \to 0$</li>
-</ul>
-</li>
-</ul>
-</div>
-</section>
-            </section>
-    
+                    <section data-auto-animate data-transition-speed="fast">
+                        <h2>n = 8</h2>
+                        <div
+                            style="display: flex; flex-wrap: wrap; gap: 5px; justify-content: center; align-items: center;">
+                            <img src="images/color_channels_plot.png"
+                                style="width: 45%; margin-right: 25px;" />
+                            <img src="images/image.png" style="width: 35%;" />
+                            <img src="images/color_channels_plot8.png"
+                                style="width: 45%; margin-right: 25px;" />
+                            <img src="images/recovered_image8.png"
+                                style="width: 35%;" />
+                        </div>
+                    </section>
+                </section>
 
+                <section>
 
+                    <section data-auto-animate data-transition-speed="fast">
+                        <h3>n = 16</h3>
+                        <div
+                            style="display: flex; flex-wrap: wrap; gap: 5px; justify-content: center; align-items: center;">
+                            <img src="images/color_channels_plot.png"
+                                style="width: 45%; margin-right: 25px;" />
+                            <img src="images/image.png" style="width: 35%;" />
+                            <img src="images/color_channels_plot16.png"
+                                style="width: 45%; margin-right: 25px;" />
+                            <img src="images/recovered_image16.png"
+                                style="width: 35%;" />
+                        </div>
+                    </section>
+                </section>
 
-    
-        <section >
-            
-            <section data-auto-animate markdown-block>
-<h2>Distribution</h2>
-</section>
-<section data-auto-animate markdown-block>
-<h2>Distribution</h2>
-<p>Motivation <br>
-Definition<br>
-Linearity and continuity
-The delta function<br>
-Properties<br>
-The derivative of a distribution</p>
-</section>
-<section data-auto-animate markdown-block>
-<h2>Distribution</h2>
-<div style="display: flex; gap: 5em;">
-<div style="text-align: left; width: 30%;">
-<p><strong>Motivation</strong> <br>
-Definition<br>
-Linearity and continuity<br>
-The delta function<br>
-Properties<br>
-The derivative of a distribution</p>
-</div>
-<p><strong>Why?</strong><br>
- <br>
-Take the of function further<br>
- <br>
-More broader and general</p>
-</div>
-</section>
-<section data-auto-animate markdown-block>
-<h2>Distribution</h2>
-<div style="display: flex; gap: 2em;">
-<div style="text-align: left; font-size: 1em; width: 50%;">
-<p>Motivation<br>
-<strong>Definition</strong> <br>
-Linearity and continuity<br>
-The delta function<br>
-Properties<br>
-The derivative of a distribution</p>
-</div>
-<div style="text-align: left; ">
-<p>A <strong>distribution</strong> $( D )$ is a continuous linear map from the space of test functions to $( \mathbb{R} )$</p>
-<p>$\mathcal{D} : \phi \mapsto \langle \mathcal{D}, \phi \rangle \in \mathbb{R}$</p>
-</div>
-</div>
-</section>
-<section data-auto-animate markdown-block>
-<h2>Distribution</h2>
-<div style="display: flex; gap: 2em;">
-<div style="text-align: left; font-size: 1em; width: 330px;">
-<p>Motivation<br>
-Definition <br>
-<strong>Linearity and continuity</strong><br>
-The delta function<br>
-Properties<br>
-The derivative of a distribution</p>
-</div>
-<div style="text-align: left; ">
-<ul>
-<li>
-<p>$ \langle \mathcal{D}, a \varphi + b \psi \rangle = a \langle \mathcal{D}, \varphi \rangle + b \langle \mathcal{D}, \psi \rangle $</p>
-</li>
-<li>
-<p>if $ \varphi_n(x) \to 0 \quad \text{as} \quad n \to \infty, $<br>
-then $ \langle \mathcal{D}, \varphi_n \rangle \to 0 $</p>
-</li>
-</ul>
-</div>
-</div>
-</section>
-<section data-auto-animate markdown-block>
-<h2>Distribution</h2>
-<div style="display: flex; gap: 2em;">
-<div style="text-align: left; font-size: 1em; width: 30%;">
-<p>Motivation<br>
-Definition <br>
-Linearity and continuity<br>
-<strong>The delta function</strong> <br>
-Properties<br>
-The derivative of a distribution</p>
-</div>
-<div style="display: flex; align-items: center; justify-content: center;">
-$
-\langle \delta, \phi \rangle = \phi(0)
-$
-</div>
-</div>
-</section>
-<section data-auto-animate markdown-block>
-<h2>Distribution</h2>
-<div style="display: flex; gap: 2em;">
-<div style="text-align: left; font-size: 1em; width: 30%;">
-<p>Motivation<br>
-Definition <br>
-Linearity and continuity<br>
-<strong>The delta function</strong> <br>
-Properties<br>
-The derivative of a distribution</p>
-</div>
-<div style="display: flex; align-items: center; justify-content: center;">
-$
-\langle \delta, \phi \rangle = \phi(0)
-$
-$= \int_{-\infty}^{\infty} \delta(x) \phi(x) \, dx
-$
-</div>
-</div>
-</section>
-<section data-auto-animate markdown-block>
-<h2>Distribution</h2>
-<div style="display: flex; gap: 2em;">
-<div style="text-align: left; font-size: 1em; width: 30%;">
-<p>Motivation<br>
-Definition <br>
-Linearity and continuity<br>
-The delta function<br>
-<strong>Properties</strong> <br>
-The derivative of a distribution</p>
-</div>
-<div style="display: flex; align-items: center; justify-content: center;">
-&nbsp;
-<ul>
-<li>$ \langle \mathcal{D} + \mathcal{E}, \phi \rangle = \langle \mathcal{D}, \phi \rangle + \langle \mathcal{E}, \phi \rangle $</li>
-<li>$ \langle a \mathcal{D}, \phi \rangle = a \langle \mathcal{D}, \phi \rangle $</li>
-<li>$ \langle \mathcal{D}(x - a), \phi(x) \rangle = \langle \mathcal{D}(x), \phi(x + a) \rangle $</li>
-<li>$ \langle \mathcal{D}(ax), \phi(x) \rangle = \frac{1}{|a|} \langle \mathcal{D}, \phi(x/a) \rangle $</li>
-<li>$ \langle \Phi(x) \mathcal{D}(x), \phi(x) \rangle = \langle \mathcal{D}(x), \Phi(x) \phi(x) \rangle $</li>
-</ul>
-</div>
-</div>
-</section>
-<section data-auto-animate markdown-block>
-<h2>Distribution</h2>
-<div style="display: flex; gap: 2em;">
-<div style="text-align: left; font-size: 1em; width: 30%;">
-<p>Motivation<br>
-Definition <br>
-Linearity and continuity<br>
-The delta function<br>
-Properties<br>
-<strong>The derivative of a distribution</strong></p>
-</div>
-<div style="display: flex; align-items: center; justify-content: center;">
-<ul>
-<li>$\langle \mathcal{D}^‘, \phi \rangle = -\langle \mathcal{D}, \phi’ \rangle$</li>
-</ul>
-</div>
-</div>
-</section>
-<section data-auto-animate markdown-block>
-<h2>Distribution</h2>
-<div style="display: flex; gap: 2em;">
-<div style="text-align: left; font-size: 1em; width: 30%;">
-<p>Motivation<br>
-Definition <br>
-Linearity and continuity<br>
-The delta function<br>
-Properties<br>
-<strong>The derivative of a distribution</strong></p>
-</div>
-<div style="display: flex; align-items: center; justify-content: center;">
-<ul>
-<li>
-<p>$\langle \mathcal{D}^‘, \phi \rangle = -\langle \mathcal{D}, \phi’ \rangle$</p>
-</li>
-<li>
-<p><strong>Example:</strong> $\mathcal{H}'(x) = \delta(x)$</p>
-</li>
-</ul>
-</div>
-</div>
-</section>
-<section data-auto-animate markdown-block>
-<h2>Distribution</h2>
-<div style="display: flex; gap: 2em;">
-<div style="text-align: left; font-size: 1em; width: 30%;">
-<p>Motivation<br>
-Definition <br>
-Linearity and continuity<br>
-The delta function<br>
-Properties<br>
-<strong>The derivative of a distribution</strong></p>
-</div>
-<div style="display: flex; align-items: center; justify-content: center;">
-<ul>
-<li>
-<p>$\langle \mathcal{D}^‘, \phi \rangle = -\langle \mathcal{D}, \phi’ \rangle$</p>
-</li>
-<li>
-<p><strong>Example:</strong> $\mathcal{H}'(x) = \delta(x)$</p>
-</li>
-<li>
-<p>$\langle \mathcal{D}^{(m)}(x), , \phi(x) \rangle = (-1)^m \langle \mathcal{D}, , \phi^{(m)}(x) \rangle$</p>
-</li>
-</ul>
-</div>
-</div>
-</section>
-            </section>
-    
+                <section>
 
+                    <section data-auto-animate data-transition-speed="fast">
+                        <h2>n = 32</h2>
+                        <div
+                            style="display: flex; flex-wrap: wrap; gap: 5px; justify-content: center; align-items: center;">
+                            <img src="images/color_channels_plot.png"
+                                style="width: 45%; margin-right: 25px;" />
+                            <img src="images/image.png" style="width: 35%;" />
+                            <img src="images/color_channels_plot32.png"
+                                style="width: 45%; margin-right: 25px;" />
+                            <img src="images/recovered_image32.png"
+                                style="width: 35%;" />
+                        </div>
+                    </section>
+                </section>
 
+                <section>
 
-    
-        <section >
-            
-            <h2>Extensions of the theory of distributions</h2>
+                    <section data-auto-animate data-transition-speed="fast">
+                        <h2>n = 64</h2>
+                        <div
+                            style="display: flex; flex-wrap: wrap; gap: 5px; justify-content: center; align-items: center;">
+                            <img src="images/color_channels_plot.png"
+                                style="width: 45%; margin-right: 25px;" />
+                            <img src="images/image.png" style="width: 35%;" />
+                            <img src="images/color_channels_plot64.png"
+                                style="width: 45%; margin-right: 25px;" />
+                            <img src="images/recovered_image64.png"
+                                style="width: 35%;" />
+                        </div>
+                    </section>
+                </section>
 
-            </section>
-    
+                <section>
 
+                    <section data-auto-animate data-transition-speed="fast">
+                        <h2>n = 128</h2>
+                        <div
+                            style="display: flex; flex-wrap: wrap; gap: 5px; justify-content: center; align-items: center;">
+                            <img src="images/color_channels_plot.png"
+                                style="width: 45%; margin-right: 25px;" />
+                            <img src="images/image.png" style="width: 35%;" />
+                            <img src="images/color_channels_plot128.png"
+                                style="width: 45%; margin-right: 25px;" />
+                            <img src="images/recovered_image128.png"
+                                style="width: 35%;" />
+                        </div>
+                    </section>
+                </section>
 
+                <section>
 
-    
-        <section >
-            
-            <section data-auto-animate markdown-block>
-<h2>More variables</h2>
-<p> </p>
-<div style="text-align: left;">
-<ul>
-<li><strong>Multivariable test function</strong></li>
-</ul>
-<div class="fragment">
-    $$\mathcal{C}^{\infty} \text{ and with compact support in all the arguments}$$  
-</div>
-</div>
-</section>
-            </section>
-    
+                    <section data-auto-animate data-transition-speed="fast">
+                        <h2>n = 256</h2>
+                        <div
+                            style="display: flex; flex-wrap: wrap; gap: 5px; justify-content: center; align-items: center;">
+                            <img src="images/color_channels_plot.png"
+                                style="width: 45%; margin-right: 25px;" />
+                            <img src="images/image.png" style="width: 35%;" />
+                            <img src="images/color_channels_plot256.png"
+                                style="width: 45%; margin-right: 25px;" />
+                            <img src="images/recovered_image256.png"
+                                style="width: 35%;" />
+                        </div>
+                    </section>
+                </section>
 
+                <section>
 
+                    <section data-auto-animate data-transition-speed="fast">
+                        <h2>n = 512</h2>
+                        <div
+                            style="display: flex; flex-wrap: wrap; gap: 5px; justify-content: center; align-items: center;">
+                            <img src="images/color_channels_plot.png"
+                                style="width: 45%; margin-right: 25px;" />
+                            <img src="images/image.png" style="width: 35%;" />
+                            <img src="images/color_channels_plot512.png"
+                                style="width: 45%; margin-right: 25px;" />
+                            <img src="images/recovered_image512.png"
+                                style="width: 35%;" />
+                        </div>
+                    </section>
+                </section>
 
-    
-        <section >
-            
-            <section data-auto-animate markdown-block>
-<h2>More variables</h2>
-<p> </p>
-<div style="text-align: left;">
-<ul>
-<li><strong>Multivariable test function</strong></li>
-</ul>
-<p>$$\mathcal{C}^{\infty} \text{ and with compact support in all the arguments}$$</p>
-<ul>
-<li><strong>Multivariable distribution</strong></li>
-</ul>
-<div class="fragment" style="padding-left: 3.5em; margin-top:1em;">
-Continuous linear map from the space of multivariable test functions to real numbers
-</div>
-</div>
-</section>
-            </section>
-    
+                <section>
 
+                    <section data-auto-animate data-transition-speed="fast">
+                        <h2>n = 1024</h2>
+                        <div
+                            style="display: flex; flex-wrap: wrap; gap: 5px; justify-content: center; align-items: center;">
+                            <img src="images/color_channels_plot.png"
+                                style="width: 45%; margin-right: 25px;" />
+                            <img src="images/image.png" style="width: 35%;" />
+                            <img src="images/color_channels_plot1024.png"
+                                style="width: 45%; margin-right: 25px;" />
+                            <img src="images/recovered_image1024.png"
+                                style="width: 35%;" />
+                        </div>
+                    </section>
+                </section>
 
+                <section>
 
-    
-        <section >
-            
-            <h2>Heat Equation Solution</h2>
-<iframe src="https://javirm3.shinyapps.io/fourierheat/" width="100%" height="800"></iframe>
-            </section>
-    
+                    <section data-auto-animate data-transition-speed="fast">
+                        <h2>n = 2048</h2>
+                        <div
+                            style="display: flex; flex-wrap: wrap; gap: 5px; justify-content: center; align-items: center;">
+                            <img src="images/color_channels_plot.png"
+                                style="width: 45%; margin-right: 25px;" />
+                            <img src="images/image.png" style="width: 35%;" />
+                            <img src="images/color_channels_plot2048.png"
+                                style="width: 45%; margin-right: 25px;" />
+                            <img src="images/recovered_image2048.png"
+                                style="width: 35%;" />
+                        </div>
+                    </section>
+                </section>
 
+                <section>
 
-    </div>
+                    <section data-auto-animate data-transition-speed="fast">
+                        <h2>n = 4096</h2>
+                        <div
+                            style="display: flex; flex-wrap: wrap; gap: 5px; justify-content: center; align-items: center;">
+                            <img src="images/color_channels_plot.png"
+                                style="width: 45%; margin-right: 25px;" />
+                            <img src="images/image.png" style="width: 35%;" />
+                            <img src="images/color_channels_plot4096.png"
+                                style="width: 45%; margin-right: 25px;" />
+                            <img src="images/recovered_image4096.png"
+                                style="width: 35%;" />
+                        </div>
+                    </section>
+                </section>
 
+                <section>
 
-  </div>
+                    <section data-auto-animate data-transition-speed="fast">
+                        <h2>n = 8192</h2>
+                        <div
+                            style="display: flex; flex-wrap: wrap; gap: 5px; justify-content: center; align-items: center;">
+                            <img src="images/color_channels_plot.png"
+                                style="width: 45%; margin-right: 25px;" />
+                            <img src="images/image.png" style="width: 35%;" />
+                            <img src="images/color_channels_plot8192.png"
+                                style="width: 45%; margin-right: 25px;" />
+                            <img src="images/recovered_image8192.png"
+                                style="width: 35%;" />
+                        </div>
+                    </section>
+                </section>
 
-  <div class="line top"></div>
-  <div class="line bottom"></div>
-  <div class="line left"></div>
-  <div class="line right"></div>
+                <section>
 
-  <script src="libs/reveal.js/4.3.1/reveal.js"></script>
-<script src="libs/reveal.js/4.3.1/plugin/notes/notes.js"></script>
-<script src="libs/reveal.js/4.3.1/plugin/markdown/markdown.js"></script>
-<script src="libs/reveal.js/4.3.1/plugin/highlight/highlight.js"></script>
-<script src="libs/reveal.js/4.3.1/plugin/math/math.js"></script>
-<script src="libs/reveal.js/4.3.1/plugin/fullscreen/plugin.js"></script>
-<script src="libs/reveal.js/4.3.1/plugin/animate/plugin.js"></script>
-<script src="libs/reveal.js/4.3.1/plugin/animate/svg.min.js"></script>
-<script src="libs/reveal.js/4.3.1/plugin/anything/plugin.js"></script>
-<script src="libs/reveal.js/4.3.1/plugin/anything/Chart.min.js"></script>
-<script src="libs/reveal.js/4.3.1/plugin/anything/d3/d3.v3.min.js"></script>
-<script src="libs/reveal.js/4.3.1/plugin/anything/d3.patch.js"></script>
-<script src="libs/reveal.js/4.3.1/plugin/anything/d3/queue.v1.min.js"></script>
-<script src="libs/reveal.js/4.3.1/plugin/anything/d3/topojson.v1.min.js"></script>
-<script src="libs/reveal.js/4.3.1/plugin/anything/function-plot.js"></script>
-<script src="libs/reveal.js/4.3.1/plugin/customcontrols/plugin.js"></script>
-<script src="libs/reveal.js/4.3.1/plugin/embed-tweet/plugin.js"></script>
-<script src="libs/reveal.js/4.3.1/plugin/chart/chart.min.js"></script>
-<script src="libs/reveal.js/4.3.1/plugin/chart/plugin.js"></script>
-<script src="libs/reveal.js/4.3.1/plugin/verticator/verticator.js"></script>
+                    <section data-auto-animate data-transition-speed="fast">
+                        <h2>n = 16384</h2>
+                        <div
+                            style="display: flex; flex-wrap: wrap; gap: 5px; justify-content: center; align-items: center;">
+                            <img src="images/color_channels_plot.png"
+                                style="width: 45%; margin-right: 25px;" />
+                            <img src="images/image.png" style="width: 35%;" />
+                            <img src="images/color_channels_plot16384.png"
+                                style="width: 45%; margin-right: 25px;" />
+                            <img src="images/recovered_image16384.png"
+                                style="width: 35%;" />
+                        </div>
+                    </section>
+                </section>
 
-<script src="libs/reveal.js/4.3.1/plugin/zoom/zoom.js"></script>
-<script src="libs/reveal.js/4.3.1/plugin/search/search.js"></script>
-<script src="libs/reveal.js/4.3.1/plugin/menu/menu.js"></script>
-<script src="libs/reveal.js/4.3.1/plugin/chalkboard/plugin.js"></script>
+                <section>
 
-<!--	<script src="libs/reveal.js/4.3.1/plugin/audio-slideshow/plugin.js"></script>  -->
-<!--	<script src="libs/reveal.js/4.3.1/plugin/audio-slideshow/recorder.js"></script>-->
-<!--	<script src="libs/reveal.js/4.3.1/plugin/audio-slideshow/RecordRTC.js"></script>-->
+                    <section data-auto-animate data-transition-speed="fast">
+                        <h2>n = 32768</h2>
+                        <div
+                            style="display: flex; flex-wrap: wrap; gap: 5px; justify-content: center; align-items: center;">
+                            <img src="images/color_channels_plot.png"
+                                style="width: 45%; margin-right: 25px;" />
+                            <img src="images/image.png" style="width: 35%;" />
+                            <img src="images/color_channels_plot32768.png"
+                                style="width: 45%; margin-right: 25px;" />
+                            <img src="images/recovered_image32768.png"
+                                style="width: 35%;" />
+                        </div>
+                    </section>
+                </section>
 
-  
+                <section>
 
-<script>
+                    <h2>The action of a test function</h2>
+
+                </section>
+
+                <section>
+
+                    <section data-auto-animate data-transition-speed="fast">
+                        <h2>Action of $f$ on a test function $\phi(x)$</h2>
+                        <p>$\langle f, \phi \rangle = \int_{-\infty}^{\infty}
+                            f(x) \phi(x) , dx$</p>
+                        <div class="fragment ">
+                            <p>Properties</p>
+                            <ul>
+                                <li>$\langle f, a\phi+b\psi\rangle = a\langle f,
+                                    \phi\rangle + b \langle f, \psi\rangle$
+                                    <ul>
+                                        <li>if $\phi_n(x)\to 0$</li>
+                                        <li>then $\langle f,\phi _n\rangle \to
+                                            0$</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+                </section>
+
+                <section>
+
+                    <section data-auto-animate markdown-block>
+                        <h2>Distribution</h2>
+                    </section>
+                </section>
+
+                <section>
+
+                    <section data-auto-animate markdown-block>
+                        <h2>Distribution</h2>
+                        <p>Motivation <br>
+                            Definition<br>
+                            Linearity and continuity
+                            The delta function<br>
+                            Properties<br>
+                            The derivative of a distribution</p>
+                    </section>
+                </section>
+
+                <section>
+
+                    <section data-auto-animate markdown-block>
+                        <h2>Distribution</h2>
+                        <div style="display: flex; gap: 5em;">
+                            <div style="text-align: left; width: 30%;">
+                                <p><strong>Motivation</strong> <br>
+                                    Definition<br>
+                                    Linearity and continuity<br>
+                                    The delta function<br>
+                                    Properties<br>
+                                    The derivative of a distribution</p>
+                            </div>
+                            <p><strong>Why?</strong><br>
+                                <br>
+                                Take the of function further<br>
+                                <br>
+                                More broader and general</p>
+                        </div>
+                    </section>
+                </section>
+
+                <section>
+
+                    <section data-auto-animate markdown-block>
+                        <h2>Distribution</h2>
+                        <div style="display: flex; gap: 2em;">
+                            <div
+                                style="text-align: left; font-size: 1em; width: 50%;">
+                                <p>Motivation<br>
+                                    <strong>Definition</strong> <br>
+                                    Linearity and continuity<br>
+                                    The delta function<br>
+                                    Properties<br>
+                                    The derivative of a distribution</p>
+                            </div>
+                            <div style="text-align: left; ">
+                                &nbsp;
+                                <p>A <strong>distribution</strong> $( D )$ is a
+                                    continuous linear map from the space of test
+                                    functions to $( \mathbb{R} )$</p>
+                                <p>$\mathcal{D} : \phi \mapsto \langle
+                                    \mathcal{D}, \phi \rangle \in
+                                    \mathbb{R}$</p>
+                            </div>
+                        </div>
+                    </section>
+                </section>
+
+                <section>
+
+                    <section data-auto-animate markdown-block>
+                        <h2>Distribution</h2>
+                        <div style="display: flex; gap: 2em;">
+                            <div
+                                style="text-align: left; font-size: 1em; width: 330px;">
+                                <p>Motivation<br>
+                                    Definition <br>
+                                    <strong>Linearity and
+                                        continuity</strong><br>
+                                    The delta function<br>
+                                    Properties<br>
+                                    The derivative of a distribution</p>
+                            </div>
+                            <div
+                                style="display: flex; align-items: center; justify-content: center;">
+                                <ul>
+                                    <li>
+                                        <p>$ \langle \mathcal{D}, a \varphi + b
+                                            \psi \rangle = a \langle
+                                            \mathcal{D}, \varphi \rangle + b
+                                            \langle \mathcal{D}, \psi \rangle
+                                            $</p>
+                                    </li>
+                                    <li>
+                                        <p>if $ \varphi_n(x) \to 0 \quad
+                                            \text{as} \quad n \to \infty, $<br>
+                                            then $ \langle \mathcal{D},
+                                            \varphi_n \rangle \to 0 $</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+                </section>
+
+                <section>
+
+                    <section data-auto-animate markdown-block>
+                        <h2>Distribution</h2>
+                        <div style="display: flex; gap: 2em;">
+                            <div
+                                style="text-align: left; font-size: 1em; width: 30%;">
+                                <p>Motivation<br>
+                                    Definition <br>
+                                    Linearity and continuity<br>
+                                    <strong>The delta function</strong> <br>
+                                    Properties<br>
+                                    The derivative of a distribution</p>
+                            </div>
+                            <div
+                                style="display: flex; align-items: center; justify-content: center;">
+                                $
+                                \langle \delta, \phi \rangle = \phi(0)
+                                $
+                            </div>
+                        </div>
+                    </section>
+                </section>
+
+                <section>
+
+                    <section data-auto-animate markdown-block>
+                        <h2>Distribution</h2>
+                        <div style="display: flex; gap: 2em;">
+                            <div
+                                style="text-align: left; font-size: 1em; width: 30%;">
+                                <p>Motivation<br>
+                                    Definition <br>
+                                    Linearity and continuity<br>
+                                    <strong>The delta function</strong> <br>
+                                    Properties<br>
+                                    The derivative of a distribution</p>
+                            </div>
+                            <div
+                                style="display: flex; align-items: center; justify-content: center;">
+                                $
+                                \langle \delta, \phi \rangle = \phi(0)
+                                $
+                                $= \int_{-\infty}^{\infty} \delta(x) \phi(x) \,
+                                dx
+                                $
+                            </div>
+                        </div>
+                    </section>
+                </section>
+
+                <section>
+
+                    <section data-auto-animate markdown-block>
+                        <h2>Distribution</h2>
+                        <div style="display: flex; gap: 2em;">
+                            <div
+                                style="text-align: left; font-size: 1em; width: 30%;">
+                                <p>Motivation<br>
+                                    Definition <br>
+                                    Linearity and continuity<br>
+                                    The delta function<br>
+                                    <strong>Properties</strong> <br>
+                                    The derivative of a distribution</p>
+                            </div>
+                            <div
+                                style="display: flex; align-items: center; justify-content: center;">
+                                &nbsp;
+                                <ul>
+                                    <li>$ \langle \mathcal{D} + \mathcal{E},
+                                        \phi \rangle = \langle \mathcal{D}, \phi
+                                        \rangle + \langle \mathcal{E}, \phi
+                                        \rangle $</li>
+                                    <li>$ \langle a \mathcal{D}, \phi \rangle =
+                                        a \langle \mathcal{D}, \phi \rangle
+                                        $</li>
+                                    <li>$ \langle \mathcal{D}(x - a), \phi(x)
+                                        \rangle = \langle \mathcal{D}(x), \phi(x
+                                        + a) \rangle $</li>
+                                    <li>$ \langle \mathcal{D}(ax), \phi(x)
+                                        \rangle = \frac{1}{|a|} \langle
+                                        \mathcal{D}, \phi(x/a) \rangle $</li>
+                                    <li>$ \langle \Phi(x) \mathcal{D}(x),
+                                        \phi(x) \rangle = \langle
+                                        \mathcal{D}(x), \Phi(x) \phi(x) \rangle
+                                        $</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+                </section>
+
+                <section>
+
+                    <section data-auto-animate markdown-block>
+                        <h2>Distribution</h2>
+                        <div style="display: flex; gap: 2em;">
+                            <div
+                                style="text-align: left; font-size: 1em; width: 30%;">
+                                <p>Motivation<br>
+                                    Definition <br>
+                                    Linearity and continuity<br>
+                                    The delta function<br>
+                                    Properties<br>
+                                    <strong>The derivative of a
+                                        distribution</strong></p>
+                            </div>
+                            <div
+                                style="display: flex; align-items: center; justify-content: center;">
+                                <ul>
+                                    <li>$\langle \mathcal{D}^‘, \phi \rangle =
+                                        -\langle \mathcal{D}, \phi’
+                                        \rangle$</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+                </section>
+
+                <section>
+
+                    <section data-auto-animate markdown-block>
+                        <h2>Distribution</h2>
+                        <div style="display: flex; gap: 2em;">
+                            <div
+                                style="text-align: left; font-size: 1em; width: 30%;">
+                                <p>Motivation<br>
+                                    Definition <br>
+                                    Linearity and continuity<br>
+                                    The delta function<br>
+                                    Properties<br>
+                                    <strong>The derivative of a
+                                        distribution</strong></p>
+                            </div>
+                            <div
+                                style="display: flex; align-items: center; justify-content: center;">
+                                <ul>
+                                    <li>
+                                        <p>$\langle \mathcal{D}^‘, \phi \rangle
+                                            = -\langle \mathcal{D}, \phi’
+                                            \rangle$</p>
+                                    </li>
+                                    <li>
+                                        <p><strong>Example:</strong>
+                                            $\mathcal{H}'(x) = \delta(x)$</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+                </section>
+
+                <section>
+
+                    <section data-auto-animate markdown-block>
+                        <h2>Distribution</h2>
+                        <div style="display: flex; gap: 2em;">
+                            <div
+                                style="text-align: left; font-size: 1em; width: 30%;">
+                                <p>Motivation<br>
+                                    Definition <br>
+                                    Linearity and continuity<br>
+                                    The delta function<br>
+                                    Properties<br>
+                                    <strong>The derivative of a
+                                        distribution</strong></p>
+                            </div>
+                            <div
+                                style="display: flex; align-items: center; justify-content: center;">
+                                <ul>
+                                    <li>
+                                        <p>$\langle \mathcal{D}^‘, \phi \rangle
+                                            = -\langle \mathcal{D}, \phi’
+                                            \rangle$</p>
+                                    </li>
+                                    <li>
+                                        <p><strong>Example:</strong>
+                                            $\mathcal{H}'(x) = \delta(x)$</p>
+                                    </li>
+                                    <li>
+                                        <p>$\langle \mathcal{D}^{(m)}(x), ,
+                                            \phi(x) \rangle = (-1)^m \langle
+                                            \mathcal{D}, , \phi^{(m)}(x)
+                                            \rangle$</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+                </section>
+
+                <section>
+
+                    <h2>Extensions of the theory of distributions</h2>
+
+                </section>
+
+                <section>
+
+                    <section data-auto-animate markdown-block>
+                        <h2>More variables</h2>
+                        <p> </p>
+                        <div style="text-align: left;">
+                            <ul>
+                                <li><strong>Multivariable test
+                                        function</strong></li>
+                            </ul>
+                            <div class="fragment">
+                                $$\mathcal{C}^{\infty} \text{ and with compact
+                                support in all the arguments}$$
+                            </div>
+                        </div>
+                    </section>
+                </section>
+
+                <section>
+
+                    <section data-auto-animate markdown-block>
+                        <h2>More variables</h2>
+                        <div style="text-align: left;">
+                            <ul>
+                                <li><strong>Multivariable test
+                                        function</strong></li>
+                            </ul>
+                            <p>$$\mathcal{C}^{\infty} \text{ and with compact
+                                support in all the arguments}$$</p>
+                            <ul>
+                                <li><strong>Multivariable
+                                        distribution</strong></li>
+                            </ul>
+                            <div class="fragment"
+                                style="padding-left: 3.5em; margin-top:1em;">
+                                Continuous linear map from the space of
+                                multivariable test functions to real numbers
+                            </div>
+                            <div class="fragment"
+                                style="padding-left: 3.5em; margin-top:1em;">
+                                Example: $\langle \delta(\mathbf{x}),
+                                \phi(\mathbf{x}) \rangle = \phi(0)$
+                            </div>
+                        </div>
+                    </section>
+                </section>
+
+                <section>
+
+                    <h2>Heat Equation Solution</h2>
+                    <iframe src="https://javirm3.shinyapps.io/fourierheat/"
+                        width="100%" height="800"></iframe>
+                </section>
+
+            </div>
+
+        </div>
+
+        <div class="line top"></div>
+        <div class="line bottom"></div>
+        <div class="line left"></div>
+        <div class="line right"></div>
+
+        <script src="libs/reveal.js/4.3.1/reveal.js"></script>
+        <script src="libs/reveal.js/4.3.1/plugin/notes/notes.js"></script>
+        <script src="libs/reveal.js/4.3.1/plugin/markdown/markdown.js"></script>
+        <script
+            src="libs/reveal.js/4.3.1/plugin/highlight/highlight.js"></script>
+        <script src="libs/reveal.js/4.3.1/plugin/math/math.js"></script>
+        <script src="libs/reveal.js/4.3.1/plugin/fullscreen/plugin.js"></script>
+        <script src="libs/reveal.js/4.3.1/plugin/animate/plugin.js"></script>
+        <script src="libs/reveal.js/4.3.1/plugin/animate/svg.min.js"></script>
+        <script src="libs/reveal.js/4.3.1/plugin/anything/plugin.js"></script>
+        <script
+            src="libs/reveal.js/4.3.1/plugin/anything/Chart.min.js"></script>
+        <script
+            src="libs/reveal.js/4.3.1/plugin/anything/d3/d3.v3.min.js"></script>
+        <script src="libs/reveal.js/4.3.1/plugin/anything/d3.patch.js"></script>
+        <script
+            src="libs/reveal.js/4.3.1/plugin/anything/d3/queue.v1.min.js"></script>
+        <script
+            src="libs/reveal.js/4.3.1/plugin/anything/d3/topojson.v1.min.js"></script>
+        <script
+            src="libs/reveal.js/4.3.1/plugin/anything/function-plot.js"></script>
+        <script
+            src="libs/reveal.js/4.3.1/plugin/customcontrols/plugin.js"></script>
+        <script
+            src="libs/reveal.js/4.3.1/plugin/embed-tweet/plugin.js"></script>
+        <script src="libs/reveal.js/4.3.1/plugin/chart/chart.min.js"></script>
+        <script src="libs/reveal.js/4.3.1/plugin/chart/plugin.js"></script>
+        <script
+            src="libs/reveal.js/4.3.1/plugin/verticator/verticator.js"></script>
+
+        <script src="libs/reveal.js/4.3.1/plugin/zoom/zoom.js"></script>
+        <script src="libs/reveal.js/4.3.1/plugin/search/search.js"></script>
+        <script src="libs/reveal.js/4.3.1/plugin/menu/menu.js"></script>
+        <script src="libs/reveal.js/4.3.1/plugin/chalkboard/plugin.js"></script>
+
+        <!--	<script src="libs/reveal.js/4.3.1/plugin/audio-slideshow/plugin.js"></script>  -->
+        <!--	<script src="libs/reveal.js/4.3.1/plugin/audio-slideshow/recorder.js"></script>-->
+        <!--	<script src="libs/reveal.js/4.3.1/plugin/audio-slideshow/RecordRTC.js"></script>-->
+
+        <script>
   const printPlugins = [
       RevealNotes,
       RevealHighlight,
@@ -796,6 +996,6 @@ Continuous linear map from the space of multivariable test functions to real num
     }
 </script>
 
-</body>
+    </body>
 
 </html>
