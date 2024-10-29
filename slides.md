@@ -81,7 +81,7 @@ Jan Riopedre, Arnau Rojals and F. Javier Rodríguez
 ---
 
 <section data-auto-animate data-transition-speed="fast">
-   <h3>n = 16</h3>
+   <h2>n = 16</h2>
    <div style="display: flex; flex-wrap: wrap; gap: 5px; justify-content: center; align-items: center;">
       <img src="images/color_channels_plot.png" style="width: 45%; margin-right: 25px;" />
       <img src="images/image.png" style="width: 35%;" />
@@ -220,6 +220,98 @@ Jan Riopedre, Arnau Rojals and F. Javier Rodríguez
       <img src="images/color_channels_plot32768.png" style="width: 45%; margin-right: 25px;" />
       <img src="images/recovered_image32768.png" style="width: 35%;" />
    </div>
+</section>
+
+---
+
+<section data-auto-animate markdown-block>
+
+## Test Functions
+
+</section>
+
+---
+
+<section data-auto-animate markdown-block>
+
+## Test Functions
+
+Motivated by $\delta(x)$ approach as multiplyng a 'suitably smooth' function.
+</section>
+
+---
+
+<section data-auto-animate markdown-block>
+
+## Test Functions
+
+Motivated by $\delta(x)$ approach as multiplyng a <span data-id="1" style="color:#107895"> 'suitably smooth' </span> function.
+</section>
+
+---
+
+<section data-auto-animate markdown-block>
+
+## Test Functions
+
+We say that $\phi(x)$ is a <span style="color:#107895">test function </span> if:
+
+- $\phi(x)$ is a $\mathcal{C}^{\infty}$ function
+- $\phi(x)$ has compact support.
+
+<div class="fragment" style="margin-top:1em; font-size:0.8em">
+ Condition 1 implies that all the derivatives of a test function are also test functions
+</div>
+
+<div class="fragment" style="margin-top:1em; font-size:0.8em">
+ As a note, test functions <span style="color:#107895">do </span>  exist.
+</div>
+
+</section>
+
+---
+
+<section data-auto-animate markdown-block>
+
+## Test Functions
+
+<div style="display: flex;">
+<div style="text-align: left; font-size: 1em; width: 50%;">
+Example:
+$$\Phi(x) = \begin{cases}0 \hspace{40.5mm}x\leq 0\\e^{-1/x} \hspace{20mm}x > 0\end{cases}$$
+
+<div class="fragment" style="margin-top:1em; font-size:0.8em">
+   It is $\mathcal{C}^\infty$, but it does not have compact support
+</div>
+</div>
+<div  style="text-align: left; align-items: center; justify-content: center;" class="fragment">
+<br/>
+<br/>
+$$\Rightarrow \phi(x) = \Phi(x)\Phi(1-x)$$
+</div>
+</div>
+
+</section>
+
+---
+
+<section data-auto-animate markdown-block>
+
+## Test Functions
+
+<div style="text-align: left;">
+Convergence for $\{\phi_n(x)\}$:
+</div>
+<div class="fragment" style="margin-top:1em; margin-left:2em;font-size:0.8em">
+<div style="text-align: left;">
+We say that $\phi_n(x) \to 0$ as $n \to \infty$ if
+</div>
+
+- $\phi_n(x)$ and all its derivatives $\phi_n^{(m)}(x)$ tend to zero, uniformly in both $x$ and $m$
+
+- There is an interval $(a, b)$ containing the support of all the $\phi_n$.
+
+</div>
 </section>
 
 ---
@@ -559,30 +651,6 @@ Example: $\langle \delta(\mathbf{x}), \phi(\mathbf{x}) \rangle = \phi(0)$
 
 ## More variables
 
-<div style="text-align: left;">
-
-- **Multivariable test function**
-
-$$\mathcal{C}^{\infty} \text{ and with compact support in all the arguments}$$  
-
-- **Multivariable distribution**
-
-<div class="fragment" style="padding-left: 3.5em; margin-top:1em;">
-Continuous linear map from the space of multivariable test functions to real numbers
-</div>
-<div class="fragment" style="padding-left: 3.5em; margin-top:1em;">
-Example: $\langle \delta(\mathbf{x}), \phi(\mathbf{x}) \rangle = \phi(0)$
-</div>
-</div>
-
-</section>
-
----
-
-<section data-auto-animate markdown-block>
-
-## More variables
-
 <div style="text-align: left; margin-top:2em;">
 
 - **Derivatives**
@@ -612,7 +680,7 @@ $$
 
 <div style=" display: flex; align-items: center; justify-content: center; gap:2em;">
 
-![Fourier transform illustration](images/fourier_jan.png)
+<img src="images/fourier_jan.png" />
 
 $$\hat{\phi}(k) = \int_{-\infty}^{\infty} \phi(x) e^{ikx} \, dx$$
 </div>
@@ -677,7 +745,7 @@ $$\phi(x) \text{ test function} \quad \Rightarrow \quad \hat{\phi}(k) \text{ tes
 
 $\hat{\phi}(k) = \int_{-\infty}^{\infty} \phi(x) e^{ikx} dx$
 
-$\tilde{\psi}(x) = \frac{1}{2\pi} \int_{-\infty}^{\infty} \psi(k) e^{-ikx} dk$
+$\hat{\psi}(x) = \frac{1}{2\pi} \int_{-\infty}^{\infty} \psi(k) e^{-ikx} dk$
 
 </div>
 
@@ -759,14 +827,14 @@ The Fourier transform of the derivative $\mathcal{D}' = \frac{d\mathcal{D}}{dx}$
 <div class="fragment">
 
 $
-\langle \check{\mathcal{D}}, \phi \rangle = \langle \mathcal{D}', \check{\phi} \rangle
+\langle \hat{\mathcal{D}^'}, \phi \rangle = \langle \mathcal{D}', \hat{\phi} \rangle
 $
 $
-= -\langle \mathcal{D}, \frac{d \check{\phi}}{dk} \rangle
+= -\langle \mathcal{D}, \frac{d \hat{\phi}}{dk} \rangle
 $
 $
-\hspace{28mm}= -\langle \mathcal{D}, ix \check{\phi} \rangle \\
-= \langle -ik \check{\mathcal{D}}, \phi \rangle
+\hspace{28mm}= -\langle \mathcal{D}, ix \hat{\phi} \rangle \\
+= \langle -ik \hat{\mathcal{D}}, \phi \rangle
 $
 
 </div>
@@ -822,7 +890,7 @@ $$
 Formally,
 
 $$
-\langle \delta, \phi \rangle = \langle \delta, \hat{\phi} \rangle
+\langle \hat{\delta}, \phi \rangle = \langle \delta, \hat{\phi} \rangle
 = \hat{\phi}(0)$$
 $$
 = \int_{-\infty}^{\infty} \phi(x)  dx = \langle 1, \phi \rangle
@@ -867,18 +935,91 @@ $$
 Formally,
 
 $$
-\overset{\hat({\check{\delta}})=\delta}{\Rightarrow} \quad \hat{1}(k) = 2\pi \delta(k)
+\overset{({\check{\delta}}\hat)=\delta}{\Rightarrow} \quad \hat{1}(k) = 2\pi \delta(k)
 $$
 
-</div>
-</div>
-</div>
 </div>
 </div>
 </section>
 
 ---
 
+<section data-auto-animate markdown-block>
+
+## Example: Heat Equation
+
+<div style="text-align: left;margin-top:1.5em; font-size:0.8em;">
+
+Consider:
+
+$$
+\frac{\partial u}{\partial t} = \frac{\partial^2 u}{\partial x^2}, \quad -\infty < x < \infty, \quad t > 0,
+$$
+
+$$
+u(x, 0) = \delta(x).
+$$
+</div>
+
+<div class="fragment" data-id="1" style="text-align: left;margin-top:1.5em; font-size:0.8em;">
+
+Taking the Fourier transform in  $x$. The equation for $ \hat{u}(k, t)$ is:
+
+$$
+\frac{\partial \hat{u}}{\partial t} = -k^2 \hat{u}, \quad -\infty < k < \infty, \quad t > 0,
+$$
+
+$$
+u(x, 0) = \delta(k) = 1.
+$$
+
+</div>
+
+</section>
+
+---
+
+<section data-auto-animate markdown-block>
+
+## Example: Heat Equation
+
+<div data-id="1" style="text-align: left;margin-top:1.5em; font-size:0.8em;">
+
+Taking the Fourier transform in  $x$. The equation for $ \hat{u}(k, t)$ is:
+
+$$
+\frac{\partial \hat{u}}{\partial t} = -k^2 \hat{u}, \quad -\infty < k < \infty, \quad t > 0,
+$$
+
+$$
+u(x, 0) = \delta(k) = 1.
+$$
+
+</div>
+
+<div class="fragment"  style="text-align: left; font-size:0.8em;">
+The solution is:
+
+$$
+\hat{u}(k, t) = exp(-k^2t) \Rightarrow
+u(x, t) = \frac{1}{2\sqrt{\pi t}} exp(-x^2 / 4t).
+$$
+
+</div>
+
+</section>
+
+---
+
 ## Heat Equation Solution
 
+<div style="display: flex; justify-content: center; gap:3em; align-items: flex-start; font-size:0.8em;margin-left:4em; margin-top:2em;">
+
 <iframe src="https://javirm3.shinyapps.io/fourierheat/" width="100%" height="800"></iframe>
+</div>
+
+---
+
+<section data-auto-animate data-transition-speed="fast" data-background-color="#107895">
+  <h2>Questions?</h2>
+</section>

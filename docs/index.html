@@ -178,7 +178,7 @@
         <section >
             
             <section data-auto-animate data-transition-speed="fast">
-   <h3>n = 16</h3>
+   <h2>n = 16</h2>
    <div style="display: flex; flex-wrap: wrap; gap: 5px; justify-content: center; align-items: center;">
       <img src="images/color_channels_plot.png" style="width: 45%; margin-right: 25px;" />
       <img src="images/image.png" style="width: 35%;" />
@@ -372,6 +372,115 @@
       <img src="images/color_channels_plot32768.png" style="width: 45%; margin-right: 25px;" />
       <img src="images/recovered_image32768.png" style="width: 35%;" />
    </div>
+</section>
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <section data-auto-animate markdown-block>
+<h2>Test Functions</h2>
+</section>
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <section data-auto-animate markdown-block>
+<h2>Test Functions</h2>
+<p>Motivated by $\delta(x)$ approach as multiplyng a ‘suitably smooth’ function.</p>
+</section>
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <section data-auto-animate markdown-block>
+<h2>Test Functions</h2>
+<p>Motivated by $\delta(x)$ approach as multiplyng a <span data-id="1" style="color:#107895"> ‘suitably smooth’ </span> function.</p>
+</section>
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <section data-auto-animate markdown-block>
+<h2>Test Functions</h2>
+<p>We say that $\phi(x)$ is a <span style="color:#107895">test function </span> if:</p>
+<ul>
+<li>$\phi(x)$ is a $\mathcal{C}^{\infty}$ function</li>
+<li>$\phi(x)$ has compact support.</li>
+</ul>
+<div class="fragment" style="margin-top:1em; font-size:0.8em">
+ Condition 1 implies that all the derivatives of a test function are also test functions
+</div>
+<div class="fragment" style="margin-top:1em; font-size:0.8em">
+ As a note, test functions <span style="color:#107895">do </span>  exist.
+</div>
+</section>
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <section data-auto-animate markdown-block>
+<h2>Test Functions</h2>
+<div style="display: flex;">
+<div style="text-align: left; font-size: 1em; width: 50%;">
+Example:
+$$\Phi(x) = \begin{cases}0 \hspace{40.5mm}x\leq 0\\e^{-1/x} \hspace{20mm}x > 0\end{cases}$$
+<div class="fragment" style="margin-top:1em; font-size:0.8em">
+   It is $\mathcal{C}^\infty$, but it does not have compact support
+</div>
+</div>
+<div  style="text-align: left; align-items: center; justify-content: center;" class="fragment">
+<br/>
+<br/>
+$$\Rightarrow \phi(x) = \Phi(x)\Phi(1-x)$$
+</div>
+</div>
+</section>
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <section data-auto-animate markdown-block>
+<h2>Test Functions</h2>
+<div style="text-align: left;">
+Convergence for $\{\phi_n(x)\}$:
+</div>
+<div class="fragment" style="margin-top:1em; margin-left:2em;font-size:0.8em">
+<div style="text-align: left;">
+We say that $\phi_n(x) \to 0$ as $n \to \infty$ if
+</div>
+<ul>
+<li>
+<p>$\phi_n(x)$ and all its derivatives $\phi_n^{(m)}(x)$ tend to zero, uniformly in both $x$ and $m$</p>
+</li>
+<li>
+<p>There is an interval $(a, b)$ containing the support of all the $\phi_n$.</p>
+</li>
+</ul>
+</div>
 </section>
             </section>
     
@@ -760,32 +869,6 @@ Example: $\langle \delta(\mathbf{x}), \phi(\mathbf{x}) \rangle = \phi(0)$
             
             <section data-auto-animate markdown-block>
 <h2>More variables</h2>
-<div style="text-align: left;">
-<ul>
-<li><strong>Multivariable test function</strong></li>
-</ul>
-<p>$$\mathcal{C}^{\infty} \text{ and with compact support in all the arguments}$$</p>
-<ul>
-<li><strong>Multivariable distribution</strong></li>
-</ul>
-<div class="fragment" style="padding-left: 3.5em; margin-top:1em;">
-Continuous linear map from the space of multivariable test functions to real numbers
-</div>
-<div class="fragment" style="padding-left: 3.5em; margin-top:1em;">
-Example: $\langle \delta(\mathbf{x}), \phi(\mathbf{x}) \rangle = \phi(0)$
-</div>
-</div>
-</section>
-            </section>
-    
-
-
-
-    
-        <section >
-            
-            <section data-auto-animate markdown-block>
-<h2>More variables</h2>
 <div style="text-align: left; margin-top:2em;">
 <ul>
 <li><strong>Derivatives</strong></li>
@@ -816,7 +899,7 @@ $$
 <li><strong>Concept and deduction</strong></li>
 </ul>
 <div style=" display: flex; align-items: center; justify-content: center; gap:2em;">
-<p><img src="images/fourier_jan.png" alt="Fourier transform illustration"></p>
+<img src="images/fourier_jan.png" />
 <p>$$\hat{\phi}(k) = \int_{-\infty}^{\infty} \phi(x) e^{ikx} , dx$$</p>
 </div>
 </div>
@@ -881,7 +964,7 @@ all the derivatives decay faster than any power of x
 <div style="display: flex; justify-content: center; gap:4em; align-items: flex-start;">
 <div class="fragment">
 <p>$\hat{\phi}(k) = \int_{-\infty}^{\infty} \phi(x) e^{ikx} dx$</p>
-<p>$\tilde{\psi}(x) = \frac{1}{2\pi} \int_{-\infty}^{\infty} \psi(k) e^{-ikx} dk$</p>
+<p>$\hat{\psi}(x) = \frac{1}{2\pi} \int_{-\infty}^{\infty} \psi(k) e^{-ikx} dk$</p>
 </div>
 <div class="fragment">
 <p>$\frac{d\hat{\phi}}{dx} = -ik\hat{\phi}$</p>
@@ -948,14 +1031,14 @@ $$</p>
 </div>
 <div class="fragment">
 <p>$
-\langle \check{\mathcal{D}}, \phi \rangle = \langle \mathcal{D}', \check{\phi} \rangle
+\langle \hat{\mathcal{D}^‘}, \phi \rangle = \langle \mathcal{D}’, \hat{\phi} \rangle
 $
 $
-= -\langle \mathcal{D}, \frac{d \check{\phi}}{dk} \rangle
+= -\langle \mathcal{D}, \frac{d \hat{\phi}}{dk} \rangle
 $
 $
-\hspace{28mm}= -\langle \mathcal{D}, ix \check{\phi} \rangle \
-= \langle -ik \check{\mathcal{D}}, \phi \rangle
+\hspace{28mm}= -\langle \mathcal{D}, ix \hat{\phi} \rangle \
+= \langle -ik \hat{\mathcal{D}}, \phi \rangle
 $</p>
 </div>
 </div>
@@ -1008,7 +1091,7 @@ $$</p>
 <div class="fragment">
 Formally,
 <p>$$
-\langle \delta, \phi \rangle = \langle \delta, \hat{\phi} \rangle
+\langle \hat{\delta}, \phi \rangle = \langle \delta, \hat{\phi} \rangle
 = \hat{\phi}(0)$$
 $$
 = \int_{-\infty}^{\infty} \phi(x)  dx = \langle 1, \phi \rangle
@@ -1049,11 +1132,8 @@ $$</p>
 <div class="fragment">
 Formally,
 <p>$$
-\overset{\hat({\check{\delta}})=\delta}{\Rightarrow} \quad \hat{1}(k) = 2\pi \delta(k)
+\overset{({\check{\delta}}\hat)=\delta}{\Rightarrow} \quad \hat{1}(k) = 2\pi \delta(k)
 $$</p>
-</div>
-</div>
-</div>
 </div>
 </div>
 </section>
@@ -1065,8 +1145,77 @@ $$</p>
     
         <section >
             
+            <section data-auto-animate markdown-block>
+<h2>Example: Heat Equation</h2>
+<div style="text-align: left;margin-top:1.5em; font-size:0.8em;">
+<p>Consider:</p>
+<p>$$
+\frac{\partial u}{\partial t} = \frac{\partial^2 u}{\partial x^2}, \quad -\infty &lt; x &lt; \infty, \quad t &gt; 0,
+$$</p>
+<p>$$
+u(x, 0) = \delta(x).
+$$</p>
+</div>
+<div class="fragment" data-id="1" style="text-align: left;margin-top:1.5em; font-size:0.8em;">
+<p>Taking the Fourier transform in  $x$. The equation for $ \hat{u}(k, t)$ is:</p>
+<p>$$
+\frac{\partial \hat{u}}{\partial t} = -k^2 \hat{u}, \quad -\infty &lt; k &lt; \infty, \quad t &gt; 0,
+$$</p>
+<p>$$
+u(x, 0) = \delta(k) = 1.
+$$</p>
+</div>
+</section>
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <section data-auto-animate markdown-block>
+<h2>Example: Heat Equation</h2>
+<div data-id="1" style="text-align: left;margin-top:1.5em; font-size:0.8em;">
+<p>Taking the Fourier transform in  $x$. The equation for $ \hat{u}(k, t)$ is:</p>
+<p>$$
+\frac{\partial \hat{u}}{\partial t} = -k^2 \hat{u}, \quad -\infty &lt; k &lt; \infty, \quad t &gt; 0,
+$$</p>
+<p>$$
+u(x, 0) = \delta(k) = 1.
+$$</p>
+</div>
+<div class="fragment"  style="text-align: left; font-size:0.8em;">
+The solution is:
+<p>$$
+\hat{u}(k, t) = exp(-k^2t) \Rightarrow
+u(x, t) = \frac{1}{2\sqrt{\pi t}} exp(-x^2 / 4t).
+$$</p>
+</div>
+</section>
+            </section>
+    
+
+
+
+    
+        <section >
+            
             <h2>Heat Equation Solution</h2>
+<div style="display: flex; justify-content: center; gap:3em; align-items: flex-start; font-size:0.8em;margin-left:4em; margin-top:2em;">
 <iframe src="https://javirm3.shinyapps.io/fourierheat/" width="100%" height="800"></iframe>
+</div>
+            </section>
+    
+
+
+
+    
+        <section >
+            
+            <section data-auto-animate data-transition-speed="fast" data-background-color="#107895">
+  <h2>Questions?</h2>
+</section>
             </section>
     
 
