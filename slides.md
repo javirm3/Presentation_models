@@ -446,6 +446,52 @@ Properties
 
 ---
 
+## Extensions of the theory of distributions
+
+---
+
+<section data-auto-animate markdown-block>
+
+## More variables
+
+&nbsp;
+
+<div style="text-align: left;">
+
+- **Multivariable test function**
+
+<div class="fragment">
+    $$\mathcal{C}^{\infty} \text{ and with compact support in all the arguments}$$  
+</div>
+</div>
+
+</section>
+
+---
+
+<section data-auto-animate markdown-block>
+
+## More variables
+
+&nbsp;
+
+<div style="text-align: left;">
+
+- **Multivariable test function**
+
+$$\mathcal{C}^{\infty} \text{ and with compact support in all the arguments}$$  
+
+- **Multivariable distribution**
+
+<div class="fragment" style="padding-left: 3.5em; margin-top:1em;">
+Continuous linear map from the space of multivariable test functions to real numbers
+</div>
+</div>
+
+</section>
+
+---
+
 ## Heat Equation Solution
 
 <iframe src="https://javirm3.shinyapps.io/fourierheat/" width="100%" height="800"></iframe>
