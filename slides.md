@@ -680,7 +680,7 @@ $$
 
 <div style=" display: flex; align-items: center; justify-content: center; gap:2em;">
 
-<img src="images/fourier_jan.png" />
+<img src="images/fourier_jan.png" style ="width: 60%;"/>
 
 $$\hat{\phi}(k) = \int_{-\infty}^{\infty} \phi(x) e^{ikx} \, dx$$
 </div>
